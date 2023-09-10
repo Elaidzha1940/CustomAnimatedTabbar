@@ -34,7 +34,7 @@ struct CustomTabBar: View {
                     Spacer()
                     Image(systemName: selectedTab == tab ? fillImage : tab.rawValue)
                         .scaleEffect(selectedTab == tab ? 1.25 : 1.0)
-                        .foregroundColor(selectedTab == tab ? .black : .gray)
+                        .foregroundColor(selectedTab == tab ? .black : .black)
                         .font(.system(size: 25, weight: .bold))
                         .onTapGesture {
                             withAnimation(.easeIn(duration: 0.1)) {
@@ -46,7 +46,7 @@ struct CustomTabBar: View {
                 }
             }
             .frame(width: nil, height: 60)
-            .background(.thinMaterial)
+            .background(.white)
             .cornerRadius(15)
             .padding()
         }

@@ -37,9 +37,9 @@ struct ContentView: View {
                 Spacer()
                 
                 CustomTabBar(selectedTab: $selectedTab)
-                
             }
         }
+        .preferredColorScheme(.dark)
     }
 }
 
