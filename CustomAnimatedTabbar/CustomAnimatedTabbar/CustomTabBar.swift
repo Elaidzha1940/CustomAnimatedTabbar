@@ -15,8 +15,8 @@ enum Tab: String, CaseIterable {
     
     case house
     case message
-    case person
-    case leaf
+    case bolt
+    case clock
     case gearshape
 }
 

@@ -37,7 +37,6 @@
 		E42BD2A12AACE2E6007844FE = {
 			isa = PBXGroup;
 			children = (
-				E42BD2BB2AACE48E007844FE /* CustomTabBar.swift */,
 				E42BD2AC2AACE2E6007844FE /* CustomAnimatedTabbar */,
 				E42BD2AB2AACE2E6007844FE /* Products */,
 			);
@@ -56,6 +55,7 @@
 			children = (
 				E42BD2AD2AACE2E6007844FE /* CustomAnimatedTabbarApp.swift */,
 				E42BD2AF2AACE2E6007844FE /* ContentView.swift */,
+				E42BD2BB2AACE48E007844FE /* CustomTabBar.swift */,
 				E42BD2B12AACE2E7007844FE /* Assets.xcassets */,
 				E42BD2B32AACE2E7007844FE /* Preview Content */,
 			);
